@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-fbody {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background-color: #b21f81;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: relative; 
+    }
+    
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 130px; /* Adjust size as needed */
+        height: auto;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    section {
+        margin-bottom: 20px;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .photo {
+        margin-right: 20px;
+    }
+    
+    .photo img {
+        max-width: 900%;
+        height: 900px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .photo img {
+        max-width: 200%;
+        height: 200px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        background-color: #b21f81;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    ly: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 20%;
+}
+
+header {
+    background-color: #b21f81;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 20px;
+}
+
+.photo {
+    margin-right: 20px;
+}
+
+.photo img {
+    max-width: 900%;
+    height: 900px;
+    display: block;
+    margin-bottom: 10px;
+}
+.photo img {
+    max-width: 200%;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #b21f81;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
